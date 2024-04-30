@@ -1,0 +1,3 @@
+[console_scripts]
+python_node = python_package.first_node:main
+
