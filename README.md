@@ -6,6 +6,7 @@ You can find the detailed explanations in my medium blog: https://medium.com/@ib
 - git clone https://github.com/ibrahimhalilbayat/ros2_ibo
 - cd ros2_ibo
 - source install/setup.bash
+- colcon build
 - ros2 run cpp_packet cpp_node
 OR
 - ros2 run python_package python_node
