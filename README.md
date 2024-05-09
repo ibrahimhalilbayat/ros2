@@ -2,8 +2,8 @@
 ROS2 framework with python and C++
 
 You can find the detailed explanations in my medium blog: 
-- https://medium.com/@ibrahimhalilbayat/ros2-part-1-12a8f040921f
-- https://medium.com/@ibrahimhalilbayat/ros2-part-2-a37ca6df2b07
+- PART 1: https://medium.com/@ibrahimhalilbayat/ros2-part-1-12a8f040921f
+- PART 2: https://medium.com/@ibrahimhalilbayat/ros2-part-2-a37ca6df2b07
 
 
 ----------------------------------------------------------------------------------------
