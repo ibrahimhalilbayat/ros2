@@ -1,7 +1,14 @@
 # ros2
 ROS2 framework with python and C++
 
-You can find the detailed explanations in my medium blog: https://medium.com/@ibrahimhalilbayat/ros2-part-1-12a8f040921f
+You can find the detailed explanations in my medium blog: 
+- https://medium.com/@ibrahimhalilbayat/ros2-part-1-12a8f040921f
+- https://medium.com/@ibrahimhalilbayat/ros2-part-2-a37ca6df2b07
+
+
+----------------------------------------------------------------------------------------
+
+
 
 - git clone https://github.com/ibrahimhalilbayat/ros2_ibo
 - cd ros2_ibo
