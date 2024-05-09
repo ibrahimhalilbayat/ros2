@@ -20,7 +20,11 @@ setup(
     tests_require=['pytest'],
     entry_points={
         'console_scripts': [
-            "python_node = python_package.first_node:main"
+            "python_node = python_package.first_node:main",
+            "python_publisher = python_package.first_python_publisher:main",
+            "python_subscriber = python_package.first_python_subscriber:main",
+            "hw1_node = python_package.hw1:main",
+            "hw2_node = python_package.hw2:main"
         ],
     },
 )
