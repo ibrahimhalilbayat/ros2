@@ -3,10 +3,13 @@
 # Name: number_counter
 # This will subscribe to a topic named 'number'
 # And will publish under a topic named 'number_count'
+# The class will also have a server named 'reset_counter'
+# If the client requests True, then the counter will be 0
 
 import rclpy
 from rclpy.node import Node
 from example_interfaces.msg import Int64
+from example_interfaces.srv import SetBool
 from numpy.random import randint
 
 class HW2(Node):
@@ -19,7 +22,22 @@ class HW2(Node):
         self.the_subscriber_ = self.create_subscription(Int64, "number", self.callback_subscription, 10)
 
         self.create_timer(1.0 , self.publish_number)
+
+
+        self.server_ = self.create_service(SetBool, "reset_counter", self.callback_counter_reset)
     
+    def callback_counter_reset(self, request, response):
+        if request.data:
+            self.counter_ = 0
+            self.get_logger().info("Counter has been reset.")
+            response.success = True
+            response.message = "The success has been set to True bro... The counter has been reset"
+        else:
+            response.success = False
+            response.message = "TNO RESET"
+
+        return response
+
     def publish_number(self):
         the_message = Int64()
         the_message.data = self.counter_
