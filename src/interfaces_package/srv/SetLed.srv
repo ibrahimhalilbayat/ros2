@@ -1,0 +1,3 @@
+bool is_battery_empty
+---
+int64[3] led_lights
