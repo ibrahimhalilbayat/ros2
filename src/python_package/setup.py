@@ -24,7 +24,12 @@ setup(
             "python_publisher = python_package.first_python_publisher:main",
             "python_subscriber = python_package.first_python_subscriber:main",
             "hw1_node = python_package.hw1:main",
-            "hw2_node = python_package.hw2:main"
-        ],
+            "hw2_node = python_package.hw2:main",
+            "example_server_node = python_package.example_server:main",
+            "example_client_node = python_package.example_client:main",
+            "health_node = python_package.health_publisher:main",
+            "battery_node = python_package.led_client:main",
+            "led_node = python_package.led_server:main"
+                            ],
     },
 )
