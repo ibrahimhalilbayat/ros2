@@ -29,7 +29,13 @@ setup(
             "example_client_node = python_package.example_client:main",
             "health_node = python_package.health_publisher:main",
             "battery_node = python_package.led_client:main",
-            "led_node = python_package.led_server:main"
+            "led_node = python_package.led_server:main",
+            "isengard_node = python_package.news_from_isengard:main",
+            "minas_tirith_node = python_package.news_from_minas_tirith:main",
+            "mordor_node = python_package.news_from_mordor:main",
+            "moria_node = python_package.news_from_moria:main",
+            "riven_dell_node = python_package.news_from_rivendell:main",
+            "palantir_node = python_package.palantir:main"
                             ],
     },
 )
