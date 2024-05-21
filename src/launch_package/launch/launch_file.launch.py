@@ -46,10 +46,7 @@ def generate_launch_description():
 
     palantir_node = Node(
         package="python_package",
-        executable="palantir_node",
-        parameters=[
-            {"publishing_frequency": 2.0}
-        ]
+        executable="palantir_node"
     )
 
     le_launch_description.add_action(isengard_node)
