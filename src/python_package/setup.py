@@ -34,8 +34,9 @@ setup(
             "minas_tirith_node = python_package.news_from_minas_tirith:main",
             "mordor_node = python_package.news_from_mordor:main",
             "moria_node = python_package.news_from_moria:main",
-            "riven_dell_node = python_package.news_from_rivendell:main",
-            "palantir_node = python_package.palantir:main"
+            "rivendell_node = python_package.news_from_rivendell:main",
+            "palantir_node = python_package.palantir:main",
+            "news_of_middle_earth_node = python_package.news_of_middle_earth:main"
                             ],
     },
 )
